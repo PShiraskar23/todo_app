@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo {
+    text-align: center;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.heading {
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.todo_container {
+    width: 600px;
+    height: 500px;
+
+}
+
+.todo_input {
+    margin: 15px 20px;
+    width: 62%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(122, 77, 45);
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgba(122, 77, 45, 0.6);
+}
+
+.todo_list {
+    width: 500px;
+    margin: auto;
+}
+
+.todo_item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    width: calc(100% - 20px);
+    background-color: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.todo_item:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.todos {
+    display: block;
+    text-decoration-style: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.deleteBtn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    margin: 0 5px;
+    background-color: red;
+
+}
+
+.deleteBtn:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.clearBtn{
+    width: 30%; 
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin: 15px 5px;
+    background-color: red;
+}
+
+.clearBtn:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+}
