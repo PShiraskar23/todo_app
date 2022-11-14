@@ -1,11 +1,11 @@
 import "./Todo.css";
 import React from "react";
-import ToddoApp from "./TodoApp";
+import TodoApp from "./TodoApp";
 
 function template() {
   return (
-    <div>
-      <ToddoApp/>
+    <div >
+      <TodoApp/>
     </div>
   );
 };

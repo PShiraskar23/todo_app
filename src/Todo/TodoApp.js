@@ -41,9 +41,9 @@ const ToddoApp = () => {
     }
 
     return <>
-        <div className="todo">
+        <div className="todo ">
             <h1 className='heading'>Todo App</h1>
-            <div className="container">
+            <div className="container container-fluid">
                 <div className='todo_container'>
 
                     <div className="add_todo">
